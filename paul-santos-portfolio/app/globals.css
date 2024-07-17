@@ -2,3 +2,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.typingWrapper::after {
+  content: "";
+  position: absolute;
+  left: 25%;
+  bottom: -20%;
+  height: 2px;
+  width: fit-content;
+  background: rgb(141, 0, 141);
+  animation: underlineAnimation 5s infinite;
+}
+
+@keyframes underlineAnimation {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 50%;
+  }
+  100% {
+    width: 0;
+  }
+}

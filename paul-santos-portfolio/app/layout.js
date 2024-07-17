@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.className}, box-border m-0 p-0 min-h-screen flex flex-col bg-blue-50`}
       >
-        <main className="w-full min-h-screen max-w-screen-xl mx-auto border-solid border-black border-2 text-blue-950">
+        <main className="w-full min-h-screen text-blue-950">
           <Header />
           {children}
         </main>

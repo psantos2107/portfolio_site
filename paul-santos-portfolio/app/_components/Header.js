@@ -6,7 +6,7 @@ import BootstrapClient from "./BootstrapClient";
 
 const Header = () => {
   return (
-    <header className="flex justify-between border-solid border-black border-2 bg-blue-950 text-blue-100">
+    <header className="flex justify-between bg-gradient-blue-magenta text-blue-100 p-2">
       <figure className="relative w-[50px] h-[50px]">
         <Image src={logo} fill className="object-contain" />
       </figure>
