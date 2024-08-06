@@ -1,6 +1,8 @@
+import "bootstrap/dist/css/bootstrap.css";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Header from "./_components/Header";
+import BootstrapClient from "./_components/BootstrapClient";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +23,7 @@ export default function RootLayout({ children }) {
         <main className="w-full min-h-screen text-blue-950">
           <Header />
           {children}
+          <BootstrapClient />
         </main>
       </body>
     </html>

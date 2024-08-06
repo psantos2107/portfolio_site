@@ -1,7 +1,6 @@
 import { Cedarville_Cursive } from "next/font/google";
-import Image from "next/image";
-import myPhoto from "@/public/imgs/Paul_Santos_Photo.JPG";
-import TypingAnimation from "./_components/_homePageComponents/TypingAnimation";
+import TypingAnimation from "./_components/_sectionOneComponents/TypingAnimation";
+import ImageCarousel from "./_components/_sectionOneComponents/ImageCarousel";
 
 const cedarville_cursive = Cedarville_Cursive({
   subsets: ["latin"],
@@ -11,44 +10,49 @@ const cedarville_cursive = Cedarville_Cursive({
 
 export default function Home() {
   return (
-    <main>
-      <section>
-        <section className="text-center mt-3">
+    <main className="w-full">
+      <section className="mt-8 h-screen md:flex md:gap-4">
+        <figure className="flex items-center justify-center md:w-1/2 md:mt-0 ">
+          <ImageCarousel />
+        </figure>
+        <section className="text-center mt-3 flex flex-col md:w-1/2 md:items-center md:justify-center md:px-8 lg:pr-12">
           <p
-            className={`${cedarville_cursive.className} text-[2.5rem] text-center`}
+            className={`${cedarville_cursive.className} text-[2.5rem] md:text-[4rem] text-center`}
           >
             Hello there.
           </p>
-          <h1 className="text-center text-[1.5rem] pl-3">
-            I'm <span className="text-[2.8rem] mr-24">Paul Santos</span>
+          <h1 className="text-center text-[1.5rem] md:text-[3rem] pl-3">
+            I'm{" "}
+            <span className="text-[2.8rem] md:text-[4.3rem] mr-24">
+              Paul Santos
+            </span>
           </h1>
-          <article className="text-[1.5rem]">
+          <article className="text-[1.5rem] md:text-[3rem]">
             <TypingAnimation />
           </article>
+          <article className="my-6 px-3">
+            <p className="md:text-[1.5rem]">
+              I am a driven and creative software engineer passionate about
+              developing intuitive, secure, and user-friendly web applications.
+              My background as a healthcare provider inspires me to create
+              wellness-focused software as well as applications that improve
+              healthcare providers' workflows (such as EMRs) and provide health
+              education to the public.
+            </p>
+          </article>
         </section>
-        <figure className="relative w-[195px] h-[260px] mx-auto my-4">
+      </section>
+    </main>
+  );
+}
+
+{
+  /* <figure className="relative w-[195px] h-[260px] mx-auto my-4">
           <Image
             src={myPhoto}
             alt="Paul Santos photo."
             fill
-            className="object-contain rounded-lg"
+            className="object-contain rounded-[50%]"
           />
-        </figure>
-        <article className="my-6 px-3">
-          <p>
-            I am a driven and creative software engineer passionate about
-            developing intuitive, secure, and user-friendly web applications. My
-            background as a healthcare provider inspires me to create
-            wellness-focused software as well as applications that improve
-            healthcare providers' workflows (such as EMRs) and provide health
-            education to the public.
-          </p>
-        </article>
-      </section>
-      <article>Links to different pages</article>
-      <article>
-        Images of the different technologies/ skills that I use.
-      </article>
-    </main>
-  );
+        </figure> */
 }
