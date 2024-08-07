@@ -25,12 +25,3 @@ const DropDownComponent = () => {
 };
 
 export default DropDownComponent;
-
-{
-  /* <Link href="#intro-section">Home</Link>
-<Link href="#skills-section">Skills</Link>
-<Link href="#about-section">About</Link>
-<Link href="#projects-section">Projects</Link>
-<Link href="#resume-section">Resume</Link>
-<Link href="#contact-section">Contact</Link> */
-}

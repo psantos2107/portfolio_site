@@ -28,7 +28,3 @@ const Header = () => {
 };
 
 export default Header;
-
-// <figure className="relative w-[50px] h-[50px]">
-//         <Image src={logo} fill className="object-contain" />
-//       </figure>

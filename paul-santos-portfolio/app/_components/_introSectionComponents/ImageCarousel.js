@@ -75,12 +75,3 @@ const ImageCarousel = () => {
 };
 
 export default ImageCarousel;
-
-/* 
- <Image
-          src={hikingPhoto}
-          fill
-          alt="Paul Santos Hiking Photo"
-          className="object-contain rounded-[50%]"
-        />
-*/
