@@ -17,21 +17,21 @@ export default function Home() {
         </figure>
         <section className="text-center mt-3 flex flex-col md:w-1/2 md:items-center md:justify-center md:px-8 lg:pr-12">
           <p
-            className={`${cedarville_cursive.className} text-[2.5rem] md:text-[4rem] text-center`}
+            className={`${cedarville_cursive.className} text-[2.5rem] md:text-[3.5rem] xl:text-[4.5rem] text-center`}
           >
             Hello there.
           </p>
-          <h1 className="text-center text-[1.5rem] md:text-[3rem] pl-3">
+          <h1 className="text-center text-[1.5rem] md:text-[2.5rem] xl:text-[3.5rem] pl-3">
             I'm{" "}
-            <span className="text-[2.8rem] md:text-[4.3rem] mr-24">
+            <span className="text-[2.8rem] bg-green-200 md:text-[3.8rem] xl:text-[4.8rem] mr-24">
               Paul Santos
             </span>
           </h1>
-          <article className="text-[1.5rem] md:text-[3rem]">
+          <article className="text-[1.5rem] md:text-[2.5rem] xl:text-[3.5rem]">
             <TypingAnimation />
           </article>
           <article className="my-6 px-3">
-            <p className="md:text-[1.5rem]">
+            <p className="md:text-[1.3rem] xl:text-[1.7rem]">
               I am a driven and creative software engineer passionate about
               developing intuitive, secure, and user-friendly web applications.
               My background as a healthcare provider inspires me to create

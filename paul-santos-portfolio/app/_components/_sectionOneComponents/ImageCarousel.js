@@ -13,7 +13,7 @@ const ImageCarousel = () => {
     <Carousel
       fade
       indicators={false}
-      className="w-[300px] h-[300px] mt-10 md:mt-0 md:w-[550px] md:h-[550px] lg:w-[750px] lg:h-[700px]"
+      className="rounded-3xl w-[300px] h-[300px] mt-10 md:mt-0 md:w-[550px] md:h-[550px] lg:w-[750px] lg:h-[700px]"
     >
       <Carousel.Item
         interval={5000}
