@@ -23,8 +23,8 @@ export default function RootLayout({ children }) {
         <main className="w-full min-h-screen text-blue-950">
           <Header />
           {children}
-          <BootstrapClient />
         </main>
+        <BootstrapClient />
       </body>
     </html>
   );

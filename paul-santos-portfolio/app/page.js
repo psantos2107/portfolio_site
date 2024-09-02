@@ -1,12 +1,15 @@
 import IntroSection from "./_introSection/IntroSection";
+import SkillsSection from "./_skillsSection/SkillsSection";
 
 export default function Home() {
   return (
     <main className="w-full">
-      <section id="intro-section" className="mt-8 h-screen md:flex md:gap-4">
+      <section id="intro-section" className="pt-8 md:flex md:gap-4 md:h-screen">
         <IntroSection />
       </section>
-      <section id="skills-section">Skills yaaas</section>
+      <section id="skills-section" className="h-screen pt-10 md:pt-28 lg:px-14">
+        <SkillsSection />
+      </section>
     </main>
   );
 }

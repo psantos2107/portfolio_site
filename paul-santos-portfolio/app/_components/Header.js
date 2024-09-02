@@ -1,3 +1,5 @@
+"use client";
+
 import { FaDesktop } from "react-icons/fa";
 import { MdFace } from "react-icons/md";
 import Link from "next/link";

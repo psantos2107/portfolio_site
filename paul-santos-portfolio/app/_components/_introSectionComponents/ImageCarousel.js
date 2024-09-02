@@ -24,6 +24,7 @@ const ImageCarousel = () => {
           fill
           alt="Paul Santos Professional Photo"
           className="object-contain rounded-[50%]"
+          loading="lazy"
         />
       </Carousel.Item>
       <Carousel.Item
@@ -35,6 +36,7 @@ const ImageCarousel = () => {
           fill
           alt="Paul Santos Hiking Photo"
           className="object-contain rounded-[50%]"
+          loading="lazy"
         />
       </Carousel.Item>
       <Carousel.Item
@@ -46,6 +48,7 @@ const ImageCarousel = () => {
           fill
           alt="Paul Santos Waterfall Photo"
           className="object-contain rounded-[50%]"
+          loading="lazy"
         />
       </Carousel.Item>
       <Carousel.Item
@@ -57,6 +60,7 @@ const ImageCarousel = () => {
           fill
           alt="Paul Santos NYC Photo"
           className="object-contain rounded-[50%]"
+          loading="lazy"
         />
       </Carousel.Item>
       <Carousel.Item
@@ -68,6 +72,7 @@ const ImageCarousel = () => {
           fill
           alt="Paul Santos with his Dog Charlie"
           className="object-contain rounded-[50%]"
+          loading="lazy"
         />
       </Carousel.Item>
     </Carousel>
