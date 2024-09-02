@@ -27,10 +27,10 @@ const images = [
 
 function TechIconImages() {
   return (
-    <article className="w-full flex flex-wrap items-center justify-center gap-4">
+    <article className="w-full lg:w-4/5 lg:mx-auto flex flex-wrap items-center justify-center gap-4 lg:mt-12">
       {images.map((image) => {
         return (
-          <figure className="h-[60px] w-[60px] relative">
+          <figure className="h-[40px] w-[40px] md:h-[130px] md:w-[130px] lg:h-[200px] lg:w-[200px] relative">
             <Image
               src={image[0]}
               fill

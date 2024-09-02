@@ -33,7 +33,7 @@ function SkillsSection() {
           Heroku, Trello, Figma, Huly, Slack
         </li>
       </ul>
-      <article className="mt-4">
+      <article className="mt-4 lg:mt-8">
         <TechIconImages />
       </article>
     </main>
