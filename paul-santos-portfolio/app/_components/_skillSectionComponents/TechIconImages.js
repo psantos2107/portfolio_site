@@ -20,6 +20,7 @@ const images = [
   [mongodbIcon, "mongodb icon"],
   [sqlIcon, "sql icon"],
   [pythonIcon, "python icon"],
+  [postgresqlIcon, "postgres icon"],
   [djangoIcon, "django icon"],
   [supabaseIcon, "supabase icon"],
   [githubIcon, "github icon"],
@@ -30,7 +31,7 @@ function TechIconImages() {
     <article className="w-full lg:w-4/5 lg:mx-auto flex flex-wrap items-center justify-center gap-4 lg:mt-12">
       {images.map((image) => {
         return (
-          <figure className="h-[40px] w-[40px] md:h-[130px] md:w-[130px] lg:h-[200px] lg:w-[200px] relative">
+          <figure className="h-[35px] w-[35px] md:h-[110px] md:w-[110px] lg:h-[180px] lg:w-[180px] relative">
             <Image
               src={image[0]}
               fill
