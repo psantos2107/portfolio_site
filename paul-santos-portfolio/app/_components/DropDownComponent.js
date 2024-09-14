@@ -15,7 +15,13 @@ const DropDownComponent = () => {
           <Dropdown.Item href="#skills-section">Skills</Dropdown.Item>
           <Dropdown.Item href="#about-section">About</Dropdown.Item>
           <Dropdown.Item href="#projects-section">Projects</Dropdown.Item>
-          <Dropdown.Item href="#resume-section">Resume</Dropdown.Item>
+          <Dropdown.Item
+            href="/resume/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </Dropdown.Item>
           <Dropdown.Item href="#contact-section">About</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>

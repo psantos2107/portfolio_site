@@ -18,7 +18,13 @@ const Header = () => {
           <Link href="#skills-section">Skills</Link>
           <Link href="#about-section">About</Link>
           <Link href="#projects-section">Projects</Link>
-          <Link href="#resume-section">Resume</Link>
+          <a
+            href="/resume/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
           <Link href="#contact-section">Contact</Link>
         </article>
         <article className="md:hidden">

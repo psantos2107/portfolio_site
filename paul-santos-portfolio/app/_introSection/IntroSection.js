@@ -38,6 +38,14 @@ const IntroSection = () => {
             healthcare providers' workflows (such as EMRs) and provide health
             education to the public.
           </p>
+          <a
+            href="/resume/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-md md:text-xl mt-4 p-1 bg-green-200 rounded-md border-blue-950 border-soli border-1 hover:bg-blue-950 hover:text-green-200 max-w-xl mx-auto"
+          >
+            See My Resume!
+          </a>
         </article>
       </section>
     </>
