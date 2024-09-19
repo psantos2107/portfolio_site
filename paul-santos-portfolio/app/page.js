@@ -1,5 +1,5 @@
-import IntroSection from "./_introSection/IntroSection";
-import SkillsSection from "./_skillsSection/SkillsSection";
+import IntroSection from "./_sections/IntroSection";
+import SkillsSection from "./_sections/SkillsSection";
 
 export default function Home() {
   return (
