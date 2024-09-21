@@ -1,21 +1,39 @@
 [
   {
     "title": "KnowNative",
-    "description": "",
-    "tech": [],
+    "description": "A language learning app focused on enhancing Chinese language skills by improving vocabulary and reading comprehension.",
+    "role": "Open Source Core Contributor",
+    "accomplishments": [
+      "Created React UI components for major features of the app, including sidebars, modal windows, edit forms, and pop-up windows",
+      "Introduced React’s Context API and useReducer into the app’s codebase as part of the state management refactoring team",
+      "Gained experience contributing to a large, unfamilar codebase",
+      "Ensured consistency with business requirements, UX/UI designs, and technical specifications during development through code reviews, paired programming sessions, and effective communication with the app owner and team of 15+"
+    ],
+    "tech": ["MongoDB, Express, React, Node"],
     "website": "",
-    "github": "",
-    "challenges": "",
-    "lessons": ""
+    "github": "https://github.com/AbigailDawson/knownative",
+    "imgs": []
   },
   {
     "title": "WanderWise",
-    "description": "",
-    "tech": [],
-    "website": "",
-    "github": "",
-    "challenges": "",
-    "lessons": ""
+    "description": "A travel advisory application where users can search for recommendations for restaurants, hotels, flights, and recreational activities for their upcoming trips.",
+    "role": "Full Stack Software Engineer",
+    "accomplishments": [
+      "Integrated the Amadeus API, TripAdvisor API, and Google Places API to deliver personalized travel suggestions for users",
+      "Designed responsive interfaces for desktop and mobile devices and oversaw web accessibility efforts for greater user experience",
+      "Implemented Next.js for full-stack development under a 2-week deadline, working with both AWS Amplify and Vercel for deployment, gaining experience with cloud-based environments, build pipelines, CI/CD, and troubleshooting deployment issues"
+    ],
+    "tech": [
+      "Next.js (App Router)",
+      "React",
+      "Supabase",
+      "PostgreSQL",
+      "NextAuth.js",
+      "Tailwind CSS"
+    ],
+    "website": "https://wanderwise-project.vercel.app/",
+    "github": "https://github.com/psantos2107/wanderwise",
+    "imgs": []
   },
   {
     "title": "Order-Eatz",

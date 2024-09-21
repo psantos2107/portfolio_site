@@ -31,7 +31,7 @@ function TechIconImages() {
     <article className="w-full lg:w-4/5 lg:mx-auto flex flex-wrap items-center justify-center gap-4 lg:mt-12">
       {images.map((image) => {
         return (
-          <figure className="h-[35px] w-[35px] md:h-[110px] md:w-[110px] lg:h-[180px] lg:w-[180px] relative">
+          <figure className="h-[35px] w-[35px] md:h-[110px] md:w-[110px] 2xl:h-[180px] 2xl:w-[180px] relative">
             <Image
               src={image[0]}
               fill
