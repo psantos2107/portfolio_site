@@ -10,7 +10,7 @@
       "Ensured consistency with business requirements, UX/UI designs, and technical specifications during development through code reviews, paired programming sessions, and effective communication with the app owner and team of 15+"
     ],
     "tech": ["MongoDB, Express, React, Node"],
-    "website": "",
+    "website": "https://knownative.io/",
     "github": "https://github.com/AbigailDawson/knownative",
     "imgs": []
   },
@@ -37,29 +37,49 @@
   },
   {
     "title": "Order-Eatz",
-    "description": "",
-    "tech": [],
-    "website": "",
-    "github": "",
-    "challenges": "",
-    "lessons": ""
+    "description": "A mobile food ordering application where users can make food orders, save food orders, look through a menu of food options, and leave comments + reviews for food items.",
+    "role": "Team Lead- Full Stack Software Engineer",
+    "accomplishments": [
+      "Managed and delivered a fully functioning project in 2 weeks by collaborating on the application architecture, delegating tasks, optimizing workflow, leading debugging efforts, and conducting code reviews with a small team, following Agile Scrum methodologies"
+    ],
+    "tech": ["React", "Node", "Express", "MongoDB", "Tailwind CSS"],
+    "website": "https://order-eatz.netlify.app/",
+    "github": "https://github.com/psantos2107/order-eatz-frontend",
+    "imgs": []
   },
   {
     "title": "SweatShare",
-    "description": "",
-    "tech": [],
-    "website": "",
-    "github": "",
-    "challenges": "",
-    "lessons": ""
+    "description": "A fitness application where users can find exercise programs to try out and create exercise programs to share with other users.",
+    "role": "Software Engineer",
+    "tech": [
+      "HTML",
+      "CSS",
+      "Vanilla JavaScript",
+      "Node",
+      "Embedded JavaScript",
+      "Bootstrap",
+      "Express",
+      "MongoDB"
+    ],
+    "accomplishments": [
+      "Leveraged Node's back-end capabilities and MongoDB's aggregation pipeline to enhance user experience with features like PDF printing, user reviews, user comments, exercise program aggregate ratings, and exercise program filtering",
+      "Practiced MVC architecture principles to maintain a clear separation of concerns and ensure scalable code structure while implementing RESTful routing practices for maintainable API interactions"
+    ],
+    "website": "https://sweatshare-6d68a7df5043.herokuapp.com/",
+    "github": "https://github.com/psantos2107/sweat-share",
+    "imgs": []
   },
   {
     "title": "Pokemon Trivia Game",
-    "description": "",
-    "tech": [],
-    "website": "",
-    "github": "",
-    "challenges": "",
-    "lessons": ""
+    "description": "A trivia game where users can test their knowledge on everything Pokemon! Users will be tested across 5 different categories of questions in a 'Who Wants to Be a Millionaire' type of format.",
+    "role": "Software Engineer",
+    "accomplishments": [
+      "Developed a dynamic Pokémon trivia game by implementing an Object-Oriented Programming approach with JavaScript classes and subclasses for dynamic question generation, integrating the PokéAPI for question content and Amazon S3 for static site hosting",
+      "Created efficient algorithms to randomize question and answer content while ensuring no duplicate questions appear in game"
+    ],
+    "tech": ["HTML", "CSS", "Vanilla JavaScript"],
+    "website": "http://pokemon-trivia-game2.s3-website-us-west-1.amazonaws.com/",
+    "github": "https://github.com/psantos2107/pokemon-trivia-game",
+    "imgs": []
   }
 ]
