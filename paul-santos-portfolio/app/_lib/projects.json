@@ -12,7 +12,11 @@
     "tech": ["MongoDB, Express, React, Node"],
     "website": "https://knownative.io/",
     "github": "https://github.com/AbigailDawson/knownative",
-    "imgs": []
+    "imgs": [
+      "@/public/imgs/project-imgs/knownative-change-difficulty.png",
+      "@/public/imgs/project-imgs/knownative-landing.png",
+      "@/public/imgs/project-imgs/knownative-translate-text.png"
+    ]
   },
   {
     "title": "WanderWise",
@@ -33,7 +37,11 @@
     ],
     "website": "https://wanderwise-project.vercel.app/",
     "github": "https://github.com/psantos2107/wanderwise",
-    "imgs": []
+    "imgs": [
+      "@/public/imgs/project-imgs/wanderwise-landing.png",
+      "@/public/imgs/project-imgs/wanderwise-flight-offer-search.png",
+      "@/public/imgs/project-imgs/wanderwise-trip-details.png"
+    ]
   },
   {
     "title": "Order-Eatz",
@@ -45,7 +53,11 @@
     "tech": ["React", "Node", "Express", "MongoDB", "Tailwind CSS"],
     "website": "https://order-eatz.netlify.app/",
     "github": "https://github.com/psantos2107/order-eatz-frontend",
-    "imgs": []
+    "imgs": [
+      "@/public/imgs/project-imgs/order-eatz-home-page.png",
+      "@/public/imgs/project-imgs/order-eatz-order-page.png",
+      "@/public/imgs/project-imgs/order-eatz-menu-page.png"
+    ]
   },
   {
     "title": "SweatShare",
@@ -67,7 +79,11 @@
     ],
     "website": "https://sweatshare-6d68a7df5043.herokuapp.com/",
     "github": "https://github.com/psantos2107/sweat-share",
-    "imgs": []
+    "imgs": [
+      "@/public/imgs/project-imgs/sweatshare-landing.png",
+      "@/public/imgs/project-imgs/sweatshare-index-page.png",
+      "@/public/imgs/project-imgs/sweatshare-exercise-program.png"
+    ]
   },
   {
     "title": "Pokemon Trivia Game",
@@ -80,6 +96,9 @@
     "tech": ["HTML", "CSS", "Vanilla JavaScript"],
     "website": "http://pokemon-trivia-game2.s3-website-us-west-1.amazonaws.com/",
     "github": "https://github.com/psantos2107/pokemon-trivia-game",
-    "imgs": []
+    "imgs": [
+      "@/public/imgs/project-imgs/prof-oak-game-screenshot.png",
+      "@/public/imgs/project-imgs/pokemon-trivia-screenshot.png"
+    ]
   }
 ]

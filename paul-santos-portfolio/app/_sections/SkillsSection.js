@@ -4,7 +4,7 @@ function SkillsSection() {
   return (
     <main className="p-3">
       <h1 className="text-2xl md:text-5xl md:mb-8">
-        <strong>Web Technologies & Skills</strong>
+        <strong className="bg-green-200">Web Technologies & Skills</strong>
       </h1>
       {/* NOTE: I was running into a bug where the app wasn't registering the CSS margin top changes for medium size screens (aka md:mt-6 wasn't registering), and thus, I chose to do margin-bottom instead for the medium size screens.  */}
       <ul className="list-disc pl-4 mt-3 md:pl-10 md:text-2xl">
