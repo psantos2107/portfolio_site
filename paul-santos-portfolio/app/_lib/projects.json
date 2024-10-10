@@ -1,7 +1,7 @@
 [
   {
     "title": "KnowNative",
-    "description": "A language learning app focused on enhancing Chinese language skills by improving vocabulary and reading comprehension.",
+    "description": "KnowNative is a language learning app focused on enhancing Chinese language skills by improving vocabulary and reading comprehension.",
     "role": "Open Source Core Contributor",
     "accomplishments": [
       "Introduced React’s Context API and useReducer into the app’s codebase as part of the state management refactoring team",
@@ -28,7 +28,7 @@
   },
   {
     "title": "WanderWise",
-    "description": "A travel advisory application where users can search for recommendations for restaurants, hotels, flights, and recreational activities for their upcoming trips.",
+    "description": "WanderWise is a travel advisory application where users can search for recommendations for restaurants, hotels, flights, and recreational activities for their upcoming trips.",
     "role": "Full Stack Software Engineer",
     "accomplishments": [
       "Integrated the Amadeus API, TripAdvisor API, and Google Places API to deliver personalized travel suggestions for users",
@@ -47,22 +47,22 @@
     "github": "https://github.com/psantos2107/wanderwise",
     "imgs": [
       [
-        "@/public/imgs/project-imgs/wanderwise-landing.png",
+        "/imgs/project-imgs/wanderwise-landing.png",
         "Landing Page of the Project"
       ],
       [
-        "@/public/imgs/project-imgs/wanderwise-flight-offer-search.png",
+        "/imgs/project-imgs/wanderwise-flight-offer-search.png",
         "Feature where users can search for flights for their trips"
       ],
       [
-        "@/public/imgs/project-imgs/wanderwise-trip-details.png",
+        "/imgs/project-imgs/wanderwise-trip-details.png",
         "Feature where users can edit and view details of their upcoming trip."
       ]
     ]
   },
   {
     "title": "Order-Eatz",
-    "description": "A mobile food ordering application where users can make food orders, save food orders, look through a menu of food options, and leave comments + reviews for food items.",
+    "description": "Order-Eatz is a mobile food ordering application where users can make food orders, save food orders, look through a menu of food options, and leave comments + reviews for food items.",
     "role": "Team Lead- Full Stack Software Engineer",
     "accomplishments": [
       "Managed and delivered a fully functioning project in 2 weeks by collaborating on the application architecture, delegating tasks, optimizing workflow, leading debugging efforts, and conducting code reviews with a small team, following Agile Scrum methodologies"
@@ -71,20 +71,17 @@
     "website": "https://order-eatz.netlify.app/",
     "github": "https://github.com/psantos2107/order-eatz-frontend",
     "imgs": [
-      ["@/public/imgs/project-imgs/order-eatz-home-page.png", "Home Page"],
+      ["/imgs/project-imgs/order-eatz-home-page.png", "Home Page"],
       [
-        "@/public/imgs/project-imgs/order-eatz-order-page.png",
+        "/imgs/project-imgs/order-eatz-order-page.png",
         "Order Page of the Mobile Food Ordering App"
       ],
-      [
-        "@/public/imgs/project-imgs/order-eatz-menu-page.png",
-        "Menu Page of Order-Eatz"
-      ]
+      ["/imgs/project-imgs/order-eatz-menu-page.png", "Menu Page of Order-Eatz"]
     ]
   },
   {
     "title": "SweatShare",
-    "description": "A fitness application where users can find exercise programs to try out and create exercise programs to share with other users.",
+    "description": "SweatShare is a fitness application where users can find exercise programs to try out and create exercise programs to share with other users.",
     "role": "Software Engineer",
     "tech": [
       "HTML",
@@ -103,20 +100,20 @@
     "website": "https://sweatshare-6d68a7df5043.herokuapp.com/",
     "github": "https://github.com/psantos2107/sweat-share",
     "imgs": [
-      ["@/public/imgs/project-imgs/sweatshare-landing.png", "Landing Page."],
+      ["/imgs/project-imgs/sweatshare-landing.png", "Landing Page."],
       [
-        "@/public/imgs/project-imgs/sweatshare-index-page.png",
+        "/imgs/project-imgs/sweatshare-index-page.png",
         "Page where users can view all available exercise programs."
       ],
       [
-        "@/public/imgs/project-imgs/sweatshare-exercise-program.png",
+        "/imgs/project-imgs/sweatshare-exercise-program.png",
         "Page where users can view exercise programs"
       ]
     ]
   },
   {
     "title": "Pokemon Trivia Game",
-    "description": "A trivia game where users can test their knowledge on everything Pokemon! Users will be tested across 5 different categories of questions in a 'Who Wants to Be a Millionaire' type of format.",
+    "description": "Pokemon Trivia game is a game where users can test their knowledge on everything Pokemon! Users will be tested across 5 different categories of questions in a 'Who Wants to Be a Millionaire' type of format.",
     "role": "Software Engineer",
     "accomplishments": [
       "Developed a dynamic Pokémon trivia game by implementing an Object-Oriented Programming approach with JavaScript classes and subclasses for dynamic question generation, integrating the PokéAPI for question content and Amazon S3 for static site hosting",
@@ -127,11 +124,11 @@
     "github": "https://github.com/psantos2107/pokemon-trivia-game",
     "imgs": [
       [
-        "@/public/imgs/project-imgs/prof-oak-game-screenshot.png",
+        "/imgs/project-imgs/prof-oak-game-screenshot.png",
         "Users get introduced to the game by Professor Oak."
       ],
       [
-        "@/public/imgs/project-imgs/pokemon-trivia-screenshot.png",
+        "/imgs/project-imgs/pokemon-trivia-screenshot.png",
         "Example of the gameplay."
       ]
     ]

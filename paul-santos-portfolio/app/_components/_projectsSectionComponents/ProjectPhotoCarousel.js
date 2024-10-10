@@ -8,7 +8,7 @@ function ProjectPhotoCarousel({ imgArray }) {
     <Carousel indicators={true} interval={null} className="w-full">
       {imgArray.map((image) => {
         return (
-          <Carousel.Item className="w-full h-[200px]">
+          <Carousel.Item className="w-full h-[200px] md:h-[400px]">
             <Image
               src={image[0]}
               fill
