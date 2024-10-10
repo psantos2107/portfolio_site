@@ -4,18 +4,26 @@
     "description": "A language learning app focused on enhancing Chinese language skills by improving vocabulary and reading comprehension.",
     "role": "Open Source Core Contributor",
     "accomplishments": [
-      "Created React UI components for major features of the app, including sidebars, modal windows, edit forms, and pop-up windows",
       "Introduced React’s Context API and useReducer into the app’s codebase as part of the state management refactoring team",
-      "Gained experience contributing to a large, unfamilar codebase",
-      "Ensured consistency with business requirements, UX/UI designs, and technical specifications during development through code reviews, paired programming sessions, and effective communication with the app owner and team of 15+"
+      "Gained experience contributing to a large, unfamilar codebase to create React UI components",
+      "Ensured consistency with business requirements and technical specifications during development through code reviews, paired programming sessions, and effective teamwork with the app owner and team of 15+"
     ],
     "tech": ["MongoDB, Express, React, Node"],
     "website": "https://knownative.io/",
     "github": "https://github.com/AbigailDawson/knownative",
     "imgs": [
-      "@/public/imgs/project-imgs/knownative-change-difficulty.png",
-      "@/public/imgs/project-imgs/knownative-landing.png",
-      "@/public/imgs/project-imgs/knownative-translate-text.png"
+      [
+        "/imgs/project-imgs/knownative-change-difficulty.png",
+        "A 'Change Difficulty' feature that I created."
+      ],
+      [
+        "/imgs/project-imgs/knownative-landing.png",
+        "Landing Page of the Project."
+      ],
+      [
+        "/imgs/project-imgs/knownative-translate-text.png",
+        "Text Translation Feature of the Project."
+      ]
     ]
   },
   {
@@ -25,7 +33,7 @@
     "accomplishments": [
       "Integrated the Amadeus API, TripAdvisor API, and Google Places API to deliver personalized travel suggestions for users",
       "Designed responsive interfaces for desktop and mobile devices and oversaw web accessibility efforts for greater user experience",
-      "Implemented Next.js for full-stack development under a 2-week deadline, working with both AWS Amplify and Vercel for deployment, gaining experience with cloud-based environments, build pipelines, CI/CD, and troubleshooting deployment issues"
+      "Implemented Next.js for full-stack development under a 2-week deadline, working with both AWS Amplify and Vercel for deployment"
     ],
     "tech": [
       "Next.js (App Router)",
@@ -38,9 +46,18 @@
     "website": "https://wanderwise-project.vercel.app/",
     "github": "https://github.com/psantos2107/wanderwise",
     "imgs": [
-      "@/public/imgs/project-imgs/wanderwise-landing.png",
-      "@/public/imgs/project-imgs/wanderwise-flight-offer-search.png",
-      "@/public/imgs/project-imgs/wanderwise-trip-details.png"
+      [
+        "@/public/imgs/project-imgs/wanderwise-landing.png",
+        "Landing Page of the Project"
+      ],
+      [
+        "@/public/imgs/project-imgs/wanderwise-flight-offer-search.png",
+        "Feature where users can search for flights for their trips"
+      ],
+      [
+        "@/public/imgs/project-imgs/wanderwise-trip-details.png",
+        "Feature where users can edit and view details of their upcoming trip."
+      ]
     ]
   },
   {
@@ -54,9 +71,15 @@
     "website": "https://order-eatz.netlify.app/",
     "github": "https://github.com/psantos2107/order-eatz-frontend",
     "imgs": [
-      "@/public/imgs/project-imgs/order-eatz-home-page.png",
-      "@/public/imgs/project-imgs/order-eatz-order-page.png",
-      "@/public/imgs/project-imgs/order-eatz-menu-page.png"
+      ["@/public/imgs/project-imgs/order-eatz-home-page.png", "Home Page"],
+      [
+        "@/public/imgs/project-imgs/order-eatz-order-page.png",
+        "Order Page of the Mobile Food Ordering App"
+      ],
+      [
+        "@/public/imgs/project-imgs/order-eatz-menu-page.png",
+        "Menu Page of Order-Eatz"
+      ]
     ]
   },
   {
@@ -80,9 +103,15 @@
     "website": "https://sweatshare-6d68a7df5043.herokuapp.com/",
     "github": "https://github.com/psantos2107/sweat-share",
     "imgs": [
-      "@/public/imgs/project-imgs/sweatshare-landing.png",
-      "@/public/imgs/project-imgs/sweatshare-index-page.png",
-      "@/public/imgs/project-imgs/sweatshare-exercise-program.png"
+      ["@/public/imgs/project-imgs/sweatshare-landing.png", "Landing Page."],
+      [
+        "@/public/imgs/project-imgs/sweatshare-index-page.png",
+        "Page where users can view all available exercise programs."
+      ],
+      [
+        "@/public/imgs/project-imgs/sweatshare-exercise-program.png",
+        "Page where users can view exercise programs"
+      ]
     ]
   },
   {
@@ -97,8 +126,14 @@
     "website": "http://pokemon-trivia-game2.s3-website-us-west-1.amazonaws.com/",
     "github": "https://github.com/psantos2107/pokemon-trivia-game",
     "imgs": [
-      "@/public/imgs/project-imgs/prof-oak-game-screenshot.png",
-      "@/public/imgs/project-imgs/pokemon-trivia-screenshot.png"
+      [
+        "@/public/imgs/project-imgs/prof-oak-game-screenshot.png",
+        "Users get introduced to the game by Professor Oak."
+      ],
+      [
+        "@/public/imgs/project-imgs/pokemon-trivia-screenshot.png",
+        "Example of the gameplay."
+      ]
     ]
   }
 ]

@@ -5,3 +5,10 @@
 .custom-dropdown-toggle::after {
   display: none;
 }
+
+/* makes the carousel arrows black*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  filter: invert(90%);
+}
