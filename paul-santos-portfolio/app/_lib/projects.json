@@ -1,7 +1,7 @@
 [
   {
-    "title": "KnowNative",
-    "description": "KnowNative is a language learning app focused on enhancing Chinese language skills by improving vocabulary and reading comprehension.",
+    "title": "KnowNative (Open-Source Project)",
+    "description": "KnowNative is a language learning application focused on enhancing Chinese language skills by improving vocabulary and reading comprehension.",
     "role": "Open Source Core Contributor",
     "accomplishments": [
       "Introduced React’s Context API and useReducer into the app’s codebase as part of the state management refactoring team",
