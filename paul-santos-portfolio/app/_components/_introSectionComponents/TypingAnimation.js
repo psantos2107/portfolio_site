@@ -12,7 +12,6 @@ function TypingAnimation() {
             "Software Engineer",
             "Full Stack Developer",
             "Web Developer",
-            "Future AWS Certified Cloud Practitioner",
             "Physical Therapist",
             "Escape Room Enthusiast",
           ]}

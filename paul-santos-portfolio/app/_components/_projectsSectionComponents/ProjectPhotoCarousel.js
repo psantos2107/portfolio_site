@@ -14,6 +14,7 @@ function ProjectPhotoCarousel({ imgArray }) {
               fill
               alt={image[1]}
               className="object-contain"
+              key={image[0]}
             />
           </Carousel.Item>
         );

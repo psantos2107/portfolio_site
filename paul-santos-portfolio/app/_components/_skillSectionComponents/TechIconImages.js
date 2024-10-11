@@ -38,6 +38,7 @@ function TechIconImages() {
               alt={image[1]}
               className="object-contain"
               loading="lazy"
+              key={image[1]}
             />
           </figure>
         );
