@@ -32,7 +32,7 @@ const Header = () => {
             rel="noopener noreferrer"
             className="header-link"
           >
-            Resume
+            Résumé
           </a>
           <Link href="#contact-section" className="header-link">
             Contact

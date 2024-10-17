@@ -14,7 +14,7 @@ function ProjectCard({ project, index }) {
       <figure className="w-[95%] mx-auto mb-2">
         <ProjectPhotoCarousel imgArray={project.imgs} />
       </figure>
-      <section className="flex justify-around mb-3 md:text-[0.5em]">
+      <section className="flex justify-evenly mb-3 md:text-[0.5em]">
         <h2 className={`bg-blue-100 p-1 hover-link`}>
           <a href={project.website} target="_blank" rel="noopener noreferrer">
             Check Out the Project!

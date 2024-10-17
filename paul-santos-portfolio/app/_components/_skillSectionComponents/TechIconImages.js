@@ -1,14 +1,14 @@
-import djangoIcon from "@/public/imgs/django-icon.png";
-import githubIcon from "@/public/imgs/github-icon.png";
-import htmlCssJsIcon from "@/public/imgs/html-css-js-icon.png";
-import mongodbIcon from "@/public/imgs/mongodb-icon.png";
-import nextJsIcon from "@/public/imgs/nextjs-icon.png";
-import nodeJsIcon from "@/public/imgs/nodejs-icon.png";
-import postgresqlIcon from "@/public/imgs/postgresql-icon.png";
-import pythonIcon from "@/public/imgs/python-logo.png";
-import reactIcon from "@/public/imgs/react-icon.png";
-import sqlIcon from "@/public/imgs/sql-icon.png";
-import supabaseIcon from "@/public/imgs/supabase-icon.png";
+import djangoIcon from "@/public/imgs/icons/django-icon.png";
+import githubIcon from "@/public/imgs/icons/github-icon.png";
+import htmlCssJsIcon from "@/public/imgs/icons/html-css-js-icon.png";
+import mongodbIcon from "@/public/imgs/icons/mongodb-icon.png";
+import nextJsIcon from "@/public/imgs/icons/nextjs-icon.png";
+import nodeJsIcon from "@/public/imgs/icons/nodejs-icon.png";
+import postgresqlIcon from "@/public/imgs/icons/postgresql-icon.png";
+import pythonIcon from "@/public/imgs/icons/python-logo.png";
+import reactIcon from "@/public/imgs/icons/react-icon.png";
+import sqlIcon from "@/public/imgs/icons/sql-icon.png";
+import supabaseIcon from "@/public/imgs/icons/supabase-icon.png";
 import Image from "next/image";
 
 //array of arrays. for each subarray, the first element is the image itself, second element is the alt name

@@ -30,13 +30,15 @@ const IntroSection = () => {
           <TypingAnimation />
         </article>
         <article className="my-6 px-3">
-          <p className="md:text-[1.3rem] xl:text-[1.7rem]">
-            I am a driven and creative software engineer passionate about
-            developing intuitive, secure, and user-friendly web applications. My
-            background as a healthcare provider inspires me to create
-            wellness-focused software as well as applications that improve
-            healthcare providers' workflows (such as EMRs) and provide health
-            education to the public.
+          <p className="md:text-[1.15rem] xl:text-[1.5rem]">
+            I am a driven, creative software engineer passionate about
+            developing secure, user-friendly web applications. My background as
+            a healthcare provider inspires me to be involved in the healthtech
+            space, where I hope to develop software that improves healthcare
+            providers' workflows (such as EMRs) and promotes health education.
+            I’m also deeply interested in projects related to wellness, mental
+            health, education, and languages, but I am always excited to take on
+            new challenges for other types of project as well.
           </p>
           <section className="flex gap-4 items-stretch justify-center mt-4 text-md md:text-xl">
             <a
@@ -45,7 +47,7 @@ const IntroSection = () => {
               rel="noopener noreferrer"
               className="bg-green-200 hover:bg-blue-950 w-fit max-w-xl hover-link"
             >
-              See My Resume!
+              Résumé
             </a>
             <a
               href="https://github.com/psantos2107"

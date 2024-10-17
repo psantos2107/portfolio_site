@@ -9,11 +9,14 @@ function TypingAnimation() {
       <p className="relative">
         <Typewriter
           words={[
-            "Software Engineer",
-            "Full Stack Developer",
+            "Full Stack Software Engineer",
             "Web Developer",
+            "JavaScript Enthusiast",
+            "React Specialist",
+            "Next.js Specialist",
             "Physical Therapist",
             "Escape Room Enthusiast",
+            "Video Game Lover",
           ]}
           loop={Infinity}
           cursor

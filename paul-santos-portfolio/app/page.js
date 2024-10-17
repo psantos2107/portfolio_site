@@ -1,6 +1,7 @@
 import IntroSection from "./_sections/IntroSection";
 import SkillsSection from "./_sections/SkillsSection";
 import ProjectsSection from "./_sections/ProjectsSection";
+import AboutSection from "./_sections/AboutSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,12 @@ export default function Home() {
         className="pt-10 md:pt-28 scroll-mt-6 lg:px-14"
       >
         <SkillsSection />
+      </section>
+      <section
+        id="about-section"
+        className="pt-10 md:pt-28 scroll-mt-6 lg:px-14"
+      >
+        <AboutSection />
       </section>
       <section
         id="projects-section"
