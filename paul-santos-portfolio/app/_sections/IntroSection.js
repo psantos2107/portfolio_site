@@ -1,6 +1,7 @@
 import { Cedarville_Cursive } from "next/font/google";
 import TypingAnimation from "../_components/_introSectionComponents/TypingAnimation";
 import ImageCarousel from "../_components/_introSectionComponents/ImageCarousel";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const cedarville_cursive = Cedarville_Cursive({
   subsets: ["latin"],
@@ -37,14 +38,32 @@ const IntroSection = () => {
             healthcare providers' workflows (such as EMRs) and provide health
             education to the public.
           </p>
-          <a
-            href="/resume/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block text-md md:text-xl mt-4 px-3 bg-green-200 hover:bg-blue-950 w-fit max-w-xl mx-auto hover-link"
-          >
-            See My Resume!
-          </a>
+          <section className="flex gap-4 items-stretch justify-center mt-4 text-md md:text-xl">
+            <a
+              href="/resume/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-200 hover:bg-blue-950 w-fit max-w-xl hover-link"
+            >
+              See My Resume!
+            </a>
+            <a
+              href="https://github.com/psantos2107"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover-link text-center"
+            >
+              <FaGithub />
+            </a>
+            <a
+              className="hover-link"
+              href="https://www.linkedin.com/in/paulsantos2107/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin />
+            </a>
+          </section>
         </article>
       </section>
     </>
