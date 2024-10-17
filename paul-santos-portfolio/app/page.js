@@ -2,6 +2,8 @@ import IntroSection from "./_sections/IntroSection";
 import SkillsSection from "./_sections/SkillsSection";
 import ProjectsSection from "./_sections/ProjectsSection";
 import AboutSection from "./_sections/AboutSection";
+import ContactSection from "./_sections/ContactSection";
+import Footer from "./_components/Footer";
 
 export default function Home() {
   return (
@@ -30,6 +32,13 @@ export default function Home() {
       >
         <ProjectsSection />
       </section>
+      <section
+        id="contact-section"
+        className="pt-10 md:pt-28 scroll-mt-6 lg:px-14 mb-8"
+      >
+        <ContactSection />
+      </section>
+      <Footer />
     </main>
   );
 }
