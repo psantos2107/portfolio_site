@@ -13,19 +13,30 @@ const Header = () => {
         <FaDesktop />
       </figure>
       <section>
-        <article className="hidden md:flex gap-4">
-          <Link href="#intro-section">Home</Link>
-          <Link href="#skills-section">Skills</Link>
-          <Link href="#about-section">About</Link>
-          <Link href="#projects-section">Projects</Link>
+        <article className="hidden md:flex gap-4 mr-4">
+          <Link href="#intro-section" className="header-link">
+            Home
+          </Link>
+          <Link href="#skills-section" className="header-link">
+            Skills
+          </Link>
+          <Link href="#about-section" className="header-link">
+            About
+          </Link>
+          <Link href="#projects-section" className="header-link">
+            Projects
+          </Link>
           <a
             href="/resume/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
+            className="header-link"
           >
             Resume
           </a>
-          <Link href="#contact-section">Contact</Link>
+          <Link href="#contact-section" className="header-link">
+            Contact
+          </Link>
         </article>
         <article className="md:hidden">
           <DropDownComponent />

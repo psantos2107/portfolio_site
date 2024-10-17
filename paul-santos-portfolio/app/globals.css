@@ -12,3 +12,34 @@
   background-color: black;
   filter: invert(90%);
 }
+
+/* Apply the hover effect on the link */
+.hover-link {
+  display: inline-block; /* Ensure the element is block-level for scale */
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+  background: linear-gradient(
+    90deg,
+    #a8e6cf,
+    #b7ebf1
+  ); /* Mint to light blue gradient */
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.hover-link:hover {
+  transform: scale(1.1); /* Scale up on hover */
+  background: linear-gradient(
+    90deg,
+    #76c7c0,
+    #b2e7e1
+  ); /* Darker mint to blue on hover */
+}
+
+.header-link {
+  transition: transform 0.3s ease-in-out;
+}
+
+.header-link:hover {
+  transform: scale(1.1);
+  font-style: italic;
+}

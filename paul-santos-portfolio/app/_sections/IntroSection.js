@@ -4,7 +4,6 @@ import ImageCarousel from "../_components/_introSectionComponents/ImageCarousel"
 
 const cedarville_cursive = Cedarville_Cursive({
   subsets: ["latin"],
-  display: "swap",
   weight: "400",
 });
 
@@ -42,7 +41,7 @@ const IntroSection = () => {
             href="/resume/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="block text-md md:text-xl mt-4 px-3 bg-green-200 hover:bg-blue-950 hover:text-green-200 w-fit max-w-xl mx-auto"
+            className="block text-md md:text-xl mt-4 px-3 bg-green-200 hover:bg-blue-950 w-fit max-w-xl mx-auto hover-link"
           >
             See My Resume!
           </a>

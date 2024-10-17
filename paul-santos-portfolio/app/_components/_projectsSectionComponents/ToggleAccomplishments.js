@@ -14,7 +14,9 @@ function ToggleAccomplishments({ accomplishments, backgroundColor }) {
     <article className="flex flex-col justify-center items-center gap-2">
       <button
         onClick={handleToggleAccomplishments}
-        className={`${backgroundColor} p-1 mb-2`}
+        className={`${backgroundColor} p-1 ${
+          showAccomplishments ? "mb-2" : "mb-4"
+        } hover-link`}
       >
         {`${showAccomplishments ? "Hide " : "Show "}`} Accomplishments
       </button>

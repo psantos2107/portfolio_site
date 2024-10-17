@@ -12,7 +12,7 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "gradient-teal-white":
-          "linear-gradient(to bottom, #1a8d8d 65%, #80C0C0 90%, #E6F2F2 100%)",
+          "linear-gradient(to bottom, #1a8d8d 65%, #80C0C0 100%)",
       },
       colors: {
         "light-teal": "#b3d9d9",

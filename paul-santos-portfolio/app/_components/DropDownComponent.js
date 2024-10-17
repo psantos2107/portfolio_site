@@ -7,7 +7,7 @@ const DropDownComponent = () => {
   return (
     <>
       <Dropdown>
-        <Dropdown.Toggle className="custom-dropdown-toggle text-blue-950 bg-green-200 hover:bg-blue-950 hover:text-green-200  active:bg-blue-950 active:text-green-200">
+        <Dropdown.Toggle className="custom-dropdown-toggle text-blue-950 hover-link">
           <FaBars size={16} />
         </Dropdown.Toggle>
         <Dropdown.Menu>

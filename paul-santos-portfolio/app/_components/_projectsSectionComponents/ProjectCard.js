@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 
 function ProjectCard({ project, index }) {
   return (
-    <article className="w-full lg:w-1/2 md:text-5xl flex flex-col gap-4">
+    <article className="w-full lg:w-1/2 md:text-5xl flex flex-col gap-4 lg:border-black lg:border-2 lg:border-solid">
       <h2 className={`bg-blue-100 p-1 md:!p-3 text-xl mb-2 md:text-[0.8em]`}>
         <a href={project.website} rel="noopener noreferrer" target="_blank">
           {index + 1}. {project.title}
@@ -15,14 +15,16 @@ function ProjectCard({ project, index }) {
         <ProjectPhotoCarousel imgArray={project.imgs} />
       </figure>
       <section className="flex justify-around mb-3 md:text-[0.5em]">
-        <h2 className={`bg-blue-100 p-1`}>
-          <a href={project.website}>Check Out the Project!</a>
+        <h2 className={`bg-blue-100 p-1 hover-link`}>
+          <a href={project.website} target="_blank" rel="noopener noreferrer">
+            Check Out the Project!
+          </a>
         </h2>
         <a
           href={project.github}
           target="_blank"
           rel="noopener noreferrer"
-          className={`bg-blue-100 p-1`}
+          className={`bg-blue-100 p-1 hover-link`}
         >
           <FaGithub />
         </a>
