@@ -1,6 +1,7 @@
 import React from "react";
 import projects from "./../_lib/projects.json";
 import ProjectCard from "../_components/_projectsSectionComponents/ProjectCard";
+import SectionHeader from "../_components/SectionHeader";
 
 const ProjectsSection = () => {
   return (

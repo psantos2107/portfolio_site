@@ -11,7 +11,7 @@ const cedarville_cursive = Cedarville_Cursive({
 const IntroSection = () => {
   return (
     <>
-      <figure className="flex items-center justify-center md:w-1/2 md:mt-0 ">
+      <figure className="flex flex-col gap-6 items-center justify-center md:w-1/2 md:mt-0 ">
         <ImageCarousel />
       </figure>
       <section className="text-center mt-3 flex flex-col md:w-1/2 md:items-center md:justify-center md:px-8 lg:pr-12">
@@ -29,7 +29,7 @@ const IntroSection = () => {
         <article className="text-[1.5rem] md:text-[2.5rem] xl:text-[3.5rem]">
           <TypingAnimation />
         </article>
-        <article className="my-6 px-3">
+        <article className="my-6 px-3 flex flex-col gap-3">
           <p className="md:text-[1.15rem] xl:text-[1.5rem]">
             I am a driven, creative software engineer passionate about
             developing secure, user-friendly web applications. My background as
@@ -39,6 +39,10 @@ const IntroSection = () => {
             I’m also deeply interested in projects related to wellness, mental
             health, education, and languages, but I am always excited to take on
             new challenges for other types of project as well.
+          </p>
+          <p className="md:text-[1.15rem] xl:text-[1.5rem]">
+            <span className="bg-green-200 p-1">Email Address:</span>{" "}
+            paul.santos2107@gmail.com
           </p>
           <section className="flex gap-4 items-stretch justify-center mt-4 text-md md:text-xl">
             <a

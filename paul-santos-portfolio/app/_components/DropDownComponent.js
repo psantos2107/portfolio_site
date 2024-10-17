@@ -22,7 +22,7 @@ const DropDownComponent = () => {
           >
             Resume
           </Dropdown.Item>
-          <Dropdown.Item href="#contact-section">About</Dropdown.Item>
+          <Dropdown.Item href="#contact-section">Contact</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
       <BootstrapClient />

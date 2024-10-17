@@ -1,13 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import myPhoto from "@/public/imgs/about-me-photo.png";
+import SectionHeader from "../_components/SectionHeader";
 
 function AboutSection() {
   return (
     <main>
-      <h1 className="text-2xl md:text-5xl md:mb-8 pl-3 mb-4">
-        <strong className={`p-1 bg-green-200`}>About Me</strong>
-      </h1>
+      <SectionHeader header="About Me" />
       <section className="flex md:flex-row-reverse flex-col items-center md:items-start justify-center md:justify-evenly">
         <section className="md:w-1/2 flex items-center justify-center">
           <figure className="relative w-[275px] h-[275px] md:w-[400px] md:h-[400px] lg:w-[700px] lg:h-[700px] mb-1">
