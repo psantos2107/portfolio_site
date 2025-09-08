@@ -97,7 +97,7 @@
       "Leveraged Node's back-end capabilities and MongoDB's aggregation pipeline to enhance user experience with features like PDF printing, user reviews, user comments, exercise program aggregate ratings, and exercise program filtering",
       "Practiced MVC architecture principles to maintain a clear separation of concerns and ensure scalable code structure while implementing RESTful routing practices for maintainable API interactions"
     ],
-    "website": "https://sweatshare-6d68a7df5043.herokuapp.com/",
+    "website": "https://sweatshare-app-2f74e96226b5.herokuapp.com/",
     "github": "https://github.com/psantos2107/sweat-share",
     "imgs": [
       ["/imgs/project-imgs/sweatshare-landing.png", "Landing Page."],
